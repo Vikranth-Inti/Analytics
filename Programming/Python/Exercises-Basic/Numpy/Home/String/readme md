@@ -1,0 +1,155 @@
+NumPy String [18 exercises with solution]
+[An editor is available at the bottom of the page to write and execute the scripts.]
+
+NumPy: String
+1. Write a NumPy program to concatenate element-wise two arrays of string. Go to the editor
+Expected Output:
+Array1:
+['Python' 'PHP']
+Array2:
+[' Java' ' C++']
+new array:
+['Python Java' 'PHP C++']
+Click me to see the sample solution
+
+2. Write a NumPy program to repeat all the elements three times of a given array of string Go to the editor 
+Expected Output:
+Original Array:
+['Python' 'PHP' 'Java' 'C++']
+New array:
+['PythonPythonPython' 'PHPPHPPHP' 'JavaJavaJava' 'C++C++C++']
+Click me to see the sample solution
+
+3. Write a NumPy program to capitalize the first letter, lowercase, uppercase, swapcase, title-case of all the elements of a given array. Go to the editor 
+Expected Output:
+Original Array:
+['python' 'PHP' 'java' 'C++']
+Capitalized: ['Python' 'Php' 'Java' 'C++']
+Lowered: ['python' 'php' 'java' 'c++']
+Uppered: ['PYTHON' 'PHP' 'JAVA' 'C++']
+Swapcased: ['PYTHON' 'php' 'JAVA' 'c++']
+Titlecased: ['Python' 'Php' 'Java' 'C++']
+Click me to see the sample solution
+
+4. Write a NumPy program to make the length of each element 15 of a given array and the string centered / left-justified / right-justified with paddings of _. Go to the editor 
+Original Array:
+['python exercises' 'PHP' 'java' 'C++']
+Centered = ['python exercise' '______PHP______' '______java_____' '______C++______'] Left = ['python exercise' 'PHP____________' 'java___________' 'C++____________'] Right = ['python exercise' '____________PHP' '___________java' '____________C++']
+Click me to see the sample solution
+
+5. Write a NumPy program to insert a space between characters of all the elements of a given array. Go to the editor 
+Note: First array elements raised to powers from second array
+Expected Output:
+Original Array:
+['python exercises' 'PHP' 'java' 'C++']
+['p y t h o n e x e r c i s e s' 'P H P' 'j a v a' 'C + +']
+Click me to see the sample solution
+
+6. Write a NumPy program to encode all the elements of a given array in cp500 and decode it again. Go to the editor 
+Sample Output:
+encoded = [b'\x97\xa8\xa3\x88\x96\x95@\x85\xa7\x85\x99\x83\x89\xa2\x85\xa2'
+b'\xd7\xc8\xd7' b'\x91\x81\xa5\x81' b'\xc3NN']
+decoded = ['python exercises' 'PHP' 'java' 'C++']
+Click me to see the sample solution
+
+7. Write a NumPy program to remove the leading and trailing whitespaces of all the elements of a given array. Go to the editor 
+Sample output:
+Original array: 
+[ -10.2 122.2 0.2] 
+Element-wise absolute value: 
+[ 10.2 122.2 0.2]
+Click me to see the sample solution
+
+8. Write a NumPy program to remove the leading whitespaces of all the elements of a given array. Go to the editor 
+Sample Output:
+Original Array:
+[' python exercises ' ' PHP ' ' java ' ' C++']
+Remove the leading whitespaces : ['python exercises ' 'PHP ' 'java ' 'C++']
+Click me to see the sample solution
+
+9. Write a NumPy program to remove the trailing whitespaces of all the elements of a given array. Go to the editor
+Sample Output:
+Original Array:
+[' python exercises ' ' PHP ' ' java ' ' C++']
+Remove the trailing whitespaces : [' python exercises' ' PHP' ' java' ' C++']
+Click me to see the sample solution
+
+10. Write a NumPy program to split the element of a given array with spaces. Go to the editor
+Sample Output:
+Original Array:
+['Python PHP Java C++']
+Split the element of the said array with spaces: 
+[list(['Python', 'PHP', 'Java', 'C++'])]
+Click me to see the sample solution
+
+11. Write a NumPy program to split the element of a given array to multiple lines. Go to the editor
+Sample output:
+Original Array:
+['Python\\Exercises, Practice, Solution']
+[list(['Python\\Exercises, Practice, Solution'])]
+Click me to see the sample solution
+
+12. Write a NumPy program to multiply a matrix by another matrix of complex numbers and create a new matrix of complex numbers. Go to the editor
+Sample output:
+Original Array:
+['2' '11' '234' '1234' '12345']
+Numeric string of 5 digits with zeros:
+['00002' '00011' '00234' '01234' '12345'] 
+Click me to see the sample solution
+
+13. Write a NumPy program to replace "PHP" with "Python" in the element of a given array. Go to the editor
+Sample Output:
+Original Array:
+['PHP Exercises, Practice, Solution']
+New array:
+['Python Exercises, Practice, Solution']
+Click me to see the sample solution
+
+14. Write a NumPy program to test equal, not equal, greater equal, greater and less test of all the elements of two given arrays. Go to the editor
+Expected Output:
+Array1:
+['Hello' 'PHP' 'JS' 'examples' 'html']
+Array2:
+['Hello' 'php' 'Java' 'examples' 'html']
+Equal test:
+[ True False False True True]
+Not equal test:
+[False True True False False]
+Less equal test:
+[ True True True True True]
+Greater equal test:
+[ True False False True True]
+Less test:
+[False True True False False]
+Click me to see the sample solution
+
+15. Write a NumPy program to count the number of "P" in a given array, element-wise. Go to the editor
+Sample Output:
+Original Array:
+['Python' 'PHP' 'JS' 'examples' 'html']
+Number of 'P':
+[1 2 0 0 0]
+Click me to see the sample solution
+
+16. Write a NumPy program to count the lowest index of "P" in a given array, element-wise. Go to the editor
+Original Array:
+['Python' 'PHP' 'JS' 'EXAMPLES' 'HTML']
+count the lowest index of 'P':
+[ 0 0 -1 4 -1]
+Click me to see the sample solution
+
+17. Write a NumPy program to check if each element of a given array is composed of digits only, lower case letters only and upper case letters only. Go to the editor
+Sample output:
+Original Array:
+['Python' 'PHP' 'JS' 'Examples' 'html5' '5']
+Digits only = [False False False False False True]
+Lower cases only = [False False False False True False]
+Upper cases only = [False True True False False False]
+Click me to see the sample solution
+
+18. Write a NumPy program to check if each element of a given array starts with "P". Go to the editor
+Sample output:
+Original Array:
+['Python' 'PHP' 'JS' 'examples' 'html']
+Test if each element of the said array starts with 'P':
+[ True True False False False]
