@@ -2,6 +2,10 @@ Original website for Open Semantic Search is :
 
 https://www.opensemanticsearch.org/
 
-Also uploading Debian package here for easy reference.
+Download source code : Linux Debian package for easy reference.
+
+https://www.opensemanticsearch.org/download/
+
+File name : open-semantic-search_20.01.17.deb
 
 Unpack it with Dpkg to browse and customize the code.
