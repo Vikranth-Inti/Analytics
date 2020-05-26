@@ -9,7 +9,7 @@ To-Do :
 
 1.Make a GUI desktop app for Windows , Mac and Linux platforms. (A virtual box appliance is already available.) (Python-Tkinter?)
 
-2.Extend language support for your favourite language with Spacy NLP library.(English and European languages support by default. Extend for Russian, Chinese, Urdu, Hindi, etc..)
+2.Extend language support for your favourite language with Spacy NLP library.(English and European languages supported by default. Extend for Russian, Chinese, Urdu, Korean, Hindi, etc..)
 
 3.Search query with speech input.
 
