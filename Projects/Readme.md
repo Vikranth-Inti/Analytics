@@ -16,3 +16,5 @@ To-Do :
 4.Computer Vision deep learning for video processing.
 
 5:Add your ideas.
+
+Fork : https://github.com/Vikranth-Inti/open-semantic-search
