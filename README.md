@@ -2,7 +2,7 @@ Analytics
 
 Includes Data Science, AI and Optimization!
 
-Check pdf file for each subject.
+Check pdf file for each subject. I request you to get a hardcopy for each of these books.
 
 Python project on open source search engine.
 
